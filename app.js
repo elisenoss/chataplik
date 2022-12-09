@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (rewq, res) => {
-    res.send('<h1> Eksamen </h1>');
+    res.send('<h1> Dette skal være en chatapplikasjon </h1>');
 });
 
 app.listen(5000, () => {
