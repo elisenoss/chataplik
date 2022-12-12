@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (rewq, res) => {
+app.get('/', (req, res) => {
     res.send('<h1> Dette skal være en chatapplikasjon!! </h1>');
 });
 
